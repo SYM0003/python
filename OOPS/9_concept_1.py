@@ -1,6 +1,6 @@
 '''
 accessing the member of 1 class into another class
-has a relation
+is a relation
 
 '''
 

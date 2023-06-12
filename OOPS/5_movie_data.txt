@@ -19,3 +19,6 @@ Movie name :Titanic
 Hero name :Leonardo
 Heroin name :Kate
 
+Movie name :Aadipurush
+Hero name :Prabhas
+Heroin name :Kriti

@@ -1,6 +1,6 @@
 '''
     static method are the method which are created inside the
-    class for fullfull the business requirements,it does take 
+    class for fullfull the business requirements,it does not take 
     self variable or cls variable as argument
 '''
 
@@ -13,6 +13,7 @@ class Student:
     
     def get_semester(self):
         ''' prints the semester whome student belongs'''
+        print('Semeseter:',self.semester)
     def get_name(self):
         '''print the name of the student'''
         print('The name of the student  is {}'.format(self.name))
