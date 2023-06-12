@@ -1,0 +1,21 @@
+Movie data
+Movie name :Pathan
+Hero name :Sharukh
+Heroin name :Deepika
+
+Movie name :Shershah
+Hero name :Siddharth
+Heroin name :Kiara
+
+Movie name :3 Idiots
+Hero name :Amir
+Heroin name :Karina
+
+Movie name :Fir hera feri
+Hero name : Akshay,Sunil,Paresh
+Heroin name :----------
+
+Movie name :Titanic
+Hero name :Leonardo
+Heroin name :Kate
+

@@ -1,0 +1,25 @@
+Multi tasking:
+    Performing multiple task simultaneously where is task is independant task is called multi tasking.
+    In programing multi tasking can be divided into two categories:
+    
+    process based multi tasking:
+        reffers to Performing multiple proesses simultaneously where is process is independant,is called
+        process based multi tasking,this type of multi tasking is suitable at operating system level.being 
+        a programmer, we do not need to know about it.
+    thread based multi tasking:
+        reffers to Performing multiple task simultaneously where is task can be treated as a part of a the program (thread)
+        and each part is independant in themselves.this type of multi tasking is suitable at program level, and 
+        being a programmer we must aware of it.
+
+
+advantage of multi tasking:
+    > efficiency.
+
+
+
+Multi threading in python:
+    for kinding of multi threading stuff in python there is an inbuilt module in python for multi threading 
+    called threading.
+    
+    threading module contains a class named 'Thread' 
+

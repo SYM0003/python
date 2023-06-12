@@ -1,0 +1,15 @@
+excpetion: excpetion is unwanted event/incident which may cause gracefull termination of the program
+           and because of the the excpetion program may not able to give us the desired output.Because of the
+           exception  program may block the resouces of the system.
+
+
+to avoid the blocking of the resouces and to get the desired output from the program program must have awarenace  of exception
+handling. Exception handling is a concept of finding/ writing alternative code when excpetion occurs, so that program rich to the 
+end and program would able to get the desired output. Exception handling reduces the probability of resouces blocking by the program.
+
+
+finally block:
+    it is the block which is used for cleanup activity more precisely we can say that whatever connection we created 
+    inside the try block or except block will be disconnected by this block 
+    the main spciality of this block is that it will run each and every time when the corrosponding try block will be run
+

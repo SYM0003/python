@@ -1,0 +1,53 @@
+class and object:a blue print or structure of a real world 
+entity is called class which contains the information that 
+can define or specify the characterstics of of that entity.
+This real world entity is called object
+
+reffrence variable: As we know that in python everything is
+considered as object only. when we create object by calling
+a constructor of any class it returns a object of that class,
+and if we want to access the member and variable of that class
+than we must have a reffrence to that function, this reffrence
+is nothing but a reffrence variable
+see program :'2_reffrence_variable.py'
+
+
+
+about __init__():function and self
+1 .__init__()->is a special method, which is know as constructor
+
+1.the main purpose of __init__() is to declare and intialize the variable  of class(instance variable)
+2. when create an object than it is executed automatically
+2. the first argument to this method must be a variable which is pointing to the current obj,
+   convetially know as 'self' but it can be any name
+   see program '3_init_and_self.py'
+
+
+# types of variable within the class:
+    instance variable(object level variable):
+        1.  instance variable the variable which may change from object to object
+            pvm create copy allocate a single copy for each obj
+        2.  in python it is create by the constructor (generally)
+        
+    static variable (class level variable)
+        1.  static variable are the variable which never change from object to object and 
+            same for all object.
+        
+    local variable (method level variable):
+        1.  variable which are declared for logical use inside the method
+
+
+
+# types of methods within the class
+    instance method:method which uses the instance method
+    class method:   method which uses the static variable
+                    to declare a mehtod as class method we must 
+                    use a decorator classmethod(i have used it in the program)
+
+                    the first argument to the class method is variable which is 
+                    pointing to the class obj created by the pvm.
+    static method: method which don't use static and instance variable
+see: program: 4_variable_and_method.py
+
+
+

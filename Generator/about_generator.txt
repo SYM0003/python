@@ -1,0 +1,7 @@
+generator are the function that are used for generatoring the sequences.
+Generally these are the function that are defined by the use to generate the 
+sequences according to there requirement
+
+we have traditionanl data sequencetypes (i.e. list,tuple,range ...) thant why do we need of the generator ?
+    because generator are far batter in term of performance and memory utilisation
+    see gen_ex2.py

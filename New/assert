@@ -1,0 +1,19 @@
+'''
+Python’s assert statement is a debugging aid that tests a
+condition. If the condition is true than it do nothing else 
+it returns AssertionError.
+'''
+
+
+# example
+class Discount:
+    @staticmethod
+    def discount(discount,product):
+        price=(product['price']*(1.0-discount))
+        assert 0<=price<=product['price']
+        return price
+
+
+shoe={'name':'nike','price':1200}
+print(Discount.discount(0.2, shoe))
+

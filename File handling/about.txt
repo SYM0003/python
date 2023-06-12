@@ -1,0 +1,51 @@
+In any programing language the data of the particular program can be accessed only when that 
+program is in running state, once the program is completely executed the data is automatically deleted
+and end user can not use that data.
+File handling came into existanse to overcome this problem, with the help of file handling we can store 
+the data of any program as a file(text,or binary),and also can asscess the data from any file
+
+
+types of files :
+1 text: abc.txt,xyz.py...
+2 binary: (image and video files etc)
+
+if the amount of data is is less than we can store it in file,else 
+we should go for advanced option like database and bigdata
+
+
+opening a file in python
+open('file_name','mode')->returns a file pointer(curser)
+file_name-> is the name of the file
+mode-> mode can be defined as  what operation we want to perform on the particular file
+
+supported modes:
+'r'->read
+'w'->write
+'a'->append
+'r+'->read and write
+'w+'->write and read
+'a+'->append and read
+'x'->exclusive write mode
+
+
+for binary files:
+
+supported modes:
+'rb'->read
+'wb'->write
+'a'->append
+'r+b'->read and write
+'w+b'->write and read
+'a+b'->append and read
+'xb'->exclusive write mode
+
+with statement:
+we can use with statement in file handling as below
+
+with open(file_name,mode) as pointer name:
+    body of with bloc
+
+
+advantage:
+1. automatic close the file after with block
+2. create block for file handling seprately

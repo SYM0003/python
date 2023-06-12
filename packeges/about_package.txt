@@ -1,0 +1,33 @@
+packages are just a folder which contains the modules which has similar use
+before python 3.2 a folder was called package if it contain a special file :__init__.py
+but in new version it is mandatory
+
+advantage of __init__.py file:
+    if we import any package in our python file than this file is executed automatically.
+    if we want to store any log info or flow info than we can use this file
+
+
+installing package:
+
+    need of installing package:
+    if we want to use any package then it must present in the current working directory if it is 
+    not present in current working directory than we won't be able to use that package and
+    corresponding modules,if we want to romove this draw back and want to use the package through out
+    our systme than we must have to install the package
+
+
+
+    process of installing package:
+    1 creat one special file in the same directory where the package is available with name setup.py
+    2 import setup from setuptools in that file
+    3 call setup() function
+        setup() function takes some arg
+        1. name=library_name-> you can use anything that you want
+        2  version=library_version->you can use anything that you want
+        3  package=list of package.
+    4 now through cmd use this cmd in same working directory
+    pip install .
+    5. package installation is done
+
+
+    

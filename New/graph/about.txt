@@ -1,0 +1,11 @@
+Graph:
+    Graph is a set of nodes that contains some values/data, some of these nodes are connected and 
+    some of the are not connected
+
+Edges:
+    Edges connects the nodes.
+
+path:
+    path of a graph can be defined the path from one node to another node but it doesn't contains
+    duplicate nodes
+
