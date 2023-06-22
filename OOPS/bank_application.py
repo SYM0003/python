@@ -78,9 +78,8 @@ class CurrentAccount(Account):
 
 
 print(f'Welcome to the online site of {Account.bank}')
-print('🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏')
 
-print('If you want to open account,enter 1️⃣\nif you already have account than enter 2️⃣\nfor exit enter 0️⃣')
+print('If you want to open account,enter 1️\nif you already have account than enter 2️\nfor exit enter 0️⃣')
 option=input('enter 1,2 or 0 only :')
 count=2
 while option not in ['1','2','0']:
@@ -98,7 +97,7 @@ else:
         exit()
 
     elif option=='2':
-        print('Than why did you come here get out from here')
+        print('This part is not implimented yet')
     else:
         print('Enter account type s(saving account) c(current account)')
         option=input('enter s or c: ').lower()
